@@ -63,21 +63,27 @@ li{
 }
 .portfolio{
 	text-align: center;
-	padding: 5px;
 	border: 1px solid #83A0A9;
+}
+.portfolio a{
+	padding: 5px;
 }
 .facebook{
 	text-align: center;
 	display: inline-block;
 	width: 50%;
+}
+.facebook a{
 	padding: 5px 20px;
 }
 .twitter{
 	text-align: center;
 	display: inline-block;
 	width: 50%;
-	padding: 5px 20px;
 	border-left: 1px solid #83A0A9;
+}
+.twitter a{
+	padding: 5px 20px;
 }
 .twitter:hover{
 	background-color: #1da1f2;
