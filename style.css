@@ -17,3 +17,83 @@ html { box-sizing: border-box; }
 body {
 	background-color: #bdc3c7;
 }
+
+.profil{
+	position: relative;
+	width: 250px;
+	margin: 50px 350px;
+	background-color: #353232;
+	color: #83A0A9;
+}
+.profil h1{
+	color: #FFFAF0;
+	font-family: Montserrat;
+}
+.foto{
+	width: 250px;
+}
+.logo{
+	position: absolute;
+	right: 25px;
+	top: 140px;
+	background-color: #b92e81;
+	border-radius: 50%;
+}
+.obsah{
+	margin: 20px;
+	font-family: Source Sans Pro;
+	font-size: 14px;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+li{
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+.odkazy a{
+	color: #83A0A9;
+	text-decoration: none;
+	display: block;
+	text-transform: uppercase;
+	font-family: Montserrat;
+	font-weight: bold;
+}
+.portfolio{
+	text-align: center;
+	padding: 5px;
+	border: 1px solid #83A0A9;
+}
+.facebook{
+	text-align: center;
+	display: inline-block;
+	width: 50%;
+	padding: 5px 20px;
+}
+.twitter{
+	text-align: center;
+	display: inline-block;
+	width: 50%;
+	padding: 5px 20px;
+	border-left: 1px solid #83A0A9;
+}
+.twitter:hover{
+	background-color: #1da1f2;
+}
+.portfolio:hover{
+	background-color: #e74c3c;
+}
+.facebook:hover{
+	background-color: #3b5998;
+}
+.portfolio a:hover{
+	color: white;
+}
+.facebook a:hover{
+	color: white;
+}
+.twitter a:hover{
+	color: white;
+}
